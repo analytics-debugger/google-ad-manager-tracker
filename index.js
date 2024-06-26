@@ -50,7 +50,7 @@
                 window.dataLayer.push({
                     event: 'select_promotion',
                     ecommerce: {
-                        items: [impressionInfo]
+                        items: impressionInfo
                     }
                 })
                 if (debug === true) console.log("GPT AD CLICK", impressionInfo);
